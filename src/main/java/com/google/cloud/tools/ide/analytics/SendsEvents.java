@@ -20,8 +20,7 @@ import java.util.Map;
 import javax.annotation.Nullable;
 
 /**
- * Package internal only interface used for providing multiple ping implementations to the {@link
- * TrackingEventBuilder}.
+ * Interface used for providing multiple ping implementations to the {@link TrackingEventBuilder}.
  */
 interface SendsEvents {
 
