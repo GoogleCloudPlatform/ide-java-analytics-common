@@ -40,7 +40,7 @@ public interface UsageTracker {
   /**
    * Returns a fluent API for pinging tracking events.
    *
-   * <p>Example: {@code sendEvent("appengine.deployment").withLabel("flex").setValue(1).ping();}
+   * <p>Example: {@code trackEvent("appengine.deployment").addMetaData("key", "value").ping();}
    *
    * @param action is typically a specific operation the user has performed in the plugin, and is
    *     often prefixed with a domain such as 'appengine.' or 'clouddebugger.'
