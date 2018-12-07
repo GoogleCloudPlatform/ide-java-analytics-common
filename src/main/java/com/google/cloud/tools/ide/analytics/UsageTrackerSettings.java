@@ -163,14 +163,6 @@ public class UsageTrackerSettings {
     /** Returns a configured {@link UsageTrackerSettings} object. */
     public UsageTrackerSettings build() {
       Preconditions.checkNotNull(manager);
-      Preconditions.checkNotNull(analyticsId);
-      Preconditions.checkNotNull(pageHost);
-      Preconditions.checkNotNull(platformName);
-      Preconditions.checkNotNull(platformVersion);
-      Preconditions.checkNotNull(pluginName);
-      Preconditions.checkNotNull(pluginVersion);
-      Preconditions.checkNotNull(clientId);
-      Preconditions.checkNotNull(userAgent);
 
       return new UsageTrackerSettings(
           manager,
